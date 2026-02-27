@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "spring.logging.level.com.ppy",
+      "type": "java.lang.String",
+      "description": "Description for spring.logging.level.com.ppy."
+  }
+] }

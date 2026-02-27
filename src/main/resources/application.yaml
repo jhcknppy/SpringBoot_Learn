@@ -6,3 +6,11 @@ spring:
     url: jdbc:mysql://localhost:3306/student_management?serverTimezone=Asia/Shanghai
     username: root
     password: Jhcknppy!
+logging:
+    level:
+      com.ppy: DEBUG
+      root: INFO
+    pattern:
+      console: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+    file:
+      name: logs/application.log
